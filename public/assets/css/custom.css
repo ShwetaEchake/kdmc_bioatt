@@ -1,0 +1,49 @@
+.roles-checkbox-group {
+    border: 1px solid #eee !important;
+    border-radius: 5px !important;
+    background-color: #eee !important;
+}
+
+.js-example-basic-single.is-invalid+span.select2-container {
+    border: 1px solid #dc3545 !important;
+    border-radius: 5px !important;
+}
+
+.form-control,
+.form-select {
+    color: #000000 !important;
+    font-weight: 500 !important;
+}
+
+body::-webkit-scrollbar {
+    width: 0.8em;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #f5f7fb;
+    outline: 2px solid #c8cfdd;
+    border-radius: 8px;
+}
+
+.custom-hor-scroll
+{
+    overflow: auto !important;
+    white-space:nowrap !important;
+}
+.custom-hor-scroll::-webkit-scrollbar {
+    height: 0.7em;
+}
+
+.custom-hor-scroll::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.custom-hor-scroll::-webkit-scrollbar-thumb {
+    background-color: #f5f7fb;
+    outline: 2px solid #c8cfdd;
+    border-radius: 8px;
+}
